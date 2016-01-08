@@ -16,6 +16,7 @@ public class ClienPostViewHolder extends RecyclerView.ViewHolder {
     public TextView tvTitle;
     public TextView tvUser;
     public SimpleDraweeView sdvUser;
+    public TextView tvReplyCount;
 
     public ClienPostViewHolder(View itemView) {
         super(itemView);
@@ -23,5 +24,6 @@ public class ClienPostViewHolder extends RecyclerView.ViewHolder {
         tvTitle = (TextView) itemView.findViewById(R.id.tv_title);
         tvUser = (TextView) itemView.findViewById(R.id.tv_user);
         sdvUser = (SimpleDraweeView) itemView.findViewById(R.id.sdv_user_img);
+        tvReplyCount = (TextView) itemView.findViewById(R.id.tv_reply_count);
     }
 }

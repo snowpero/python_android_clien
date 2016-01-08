@@ -162,6 +162,7 @@ public class MainActivity extends AppCompatActivity
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(getApplicationContext(), "Tab Data Load Failed!!", Toast.LENGTH_SHORT).show();
+                        findViewById(R.id.progressBar_main).setVisibility(View.GONE);
                     }
                 }
         );

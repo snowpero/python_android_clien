@@ -79,7 +79,7 @@ public class MainPostFragment extends Fragment {
 
         listAdapter = new CustomAdapter();
         listview.setAdapter(listAdapter);
-        listview.setItemAnimator(new DefaultItemAnimator());
+//        listview.setItemAnimator(new DefaultItemAnimator());
 
         listview.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
